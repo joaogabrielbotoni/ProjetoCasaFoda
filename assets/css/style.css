@@ -1,0 +1,54 @@
+html,body{
+    height: 100%;
+}
+
+
+header{
+    background-image: url(../img/castelo.jpg);
+    background-size: cover;
+    background-position: top center;
+    height: 100%;
+    
+
+}
+header h1{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.banner{
+    color: white;
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,41,0.10127801120448177) 100%);
+    padding: 20px;
+    width: 80% ;
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s;
+    
+    
+}
+.titulo-depoimento{
+padding-top: 25px;
+padding-bottom: 25px;
+ color: white;
+ background: rgb(2,0,36);
+ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,41,0.28335084033613445) 100%);
+ margin-bottom: 5;
+ font-size: 24px;
+ border-radius: 20px;
+  
+}
+.img-responsive{
+border-radius: 20px;
+padding: 2px;
+
+}
+.thumbnail{
+border-radius: 20px;
+}
+.thumbnail:hover{
+    transform: scale(1.1);
+}
