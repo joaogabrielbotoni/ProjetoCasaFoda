@@ -52,3 +52,9 @@ border-radius: 20px;
 .thumbnail:hover{
     transform: scale(1.1);
 }
+footer{
+    background-color: rgba(73, 69, 69, 0.472);
+    color: white;
+    padding: 20px;
+    margin-top: 10px;
+}
